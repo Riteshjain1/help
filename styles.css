@@ -1,21 +1,30 @@
 body{
-    font-family: 'Dosis', sans-serif;
-}
-h1{
-    color: #03256c;
-    text-align: right;
-    padding: 2rem;
-    padding-top: 4rem;
     font-family: 'Montserrat', sans-serif;
 }
-
-.heading-image{
-    width: 80%;
-    height: 80%;
-    padding: 3rem;
-    padding-top: 3rem;
+h1, h2{
+    color: #03256c;
 }
+/* header section */
 
+
+/* heading section */
+#heading{
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url('https://ecowarriorprincess.net/wp-content/uploads/2017/12/Happiness-of-poor-children.-Can-we-really-step-outside-our-bubbles-to-make-a-better-world.jpg');
+}
+.big-heading{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-right: 2rem;
+}
+.heading-image{
+    margin: auto;
+    width: 100%;
+    height: 70%;
+}
 .myButton {
 	background-color:#03256c;
 	border-radius:32px;
@@ -23,9 +32,10 @@ h1{
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:30px;
-	padding:16px 31px;
+	font-size:20px;
+	padding:14px 22px;
     text-decoration:none;
+    margin: 1rem;
 }
 .myButton:hover {
     background-color: #f5f5f5;
@@ -35,23 +45,35 @@ h1{
 	position:relative;
 	top:1px;
 }
+.m{
+    margin-bottom: 240px;
+}
+
+/* middle section */
+#middle{
+    margin: 4rem 1rem;
+}
+.middle-ele{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+.middle-icon{
+    font-size: 4rem; 
+    color:#03256c
+}
+
 
 @media screen and (max-width: 1200px) {
-    h1{
+    #heading{
+        background-color: black;
+    }
+    .big-heading{
         padding-top: 1rem;
-        background-color: #f5f5f5;
         text-align: center;
     }
-    .heading-image{
-        width: 90%;
-        height: 70%;
-        padding: 1rem;
+    .m{
+        margin-bottom: 100px;
     }
   }
 
-@media screen and (max-width: 743px){
-    .heading-image{
-        height: 90%;
-        padding: 1rem;
-    }
-}
